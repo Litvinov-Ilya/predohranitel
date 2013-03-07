@@ -45,3 +45,24 @@ class predohranitel {
   else if (a>=3 && a<4)
 	System.out.println("Trebuetsya predohranitel s nominalom 4A");
   else if (a>=4 && a<5)
+  	System.out.println("Trebuetsya predohranitel s nominalom 5A");
+  else if (a>=5 && a<6)
+	System.out.println("Trebuetsya predohranitel s nominalom 6A");
+  else if (a>=6 && a<8)
+	System.out.println("Trebuetsya predohranitel s nominalom 8A");
+  else if (a>=8 && a<10)
+	System.out.println("Trebuetsya predohranitel s nominalom 10A");
+  else if (a>=10 && a<12)
+	System.out.println("Trebuetsya predohranitel s nominalom 12A");
+  else if (a>=12 && a<15)
+	System.out.println("Trebuetsya predohranitel s nominalom 15A");
+  else if (a>=15 && a<20)
+	System.out.println("Trebuetsya predohranitel s nominalom 20A");
+  else if (a>=20 && a<30)
+	System.out.println("Trebuetsya predohranitel s nominalom 30A");
+  else if (a>=30 && a<40)
+	System.out.println("Trebuetsya predohranitel s nominalom 40A");
+  else if (a>=40 && a<50)
+	System.out.println("Trebuetsya predohranitel s nominalom 50A");
+}
+}
