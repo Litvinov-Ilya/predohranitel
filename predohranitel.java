@@ -28,3 +28,20 @@ class predohranitel {
   System.out.println("vvedite raschetnoe napryajenie ");
   f=Double.parseDouble(kb.readLine());
   nominal sila=new nominal(e,f);
+ double a=sila.SilaToka();
+  System.out.println("sila toka "+a);
+  if (a>0 && a<0.1)
+  System.out.println("Trebuetsya predohranitel s nominalom 0,1A");
+  else if (a>=0.1 && a<0.25)
+	System.out.println("Trebuetsya predohranitel s nominalom 0,25A");
+  else if (a>=0.25 && a<0.5)
+	System.out.println("Trebuetsya predohranitel s nominalom 0,5A");
+  else if (a>=0.5 && a<1)
+	System.out.println("Trebuetsya predohranitel s nominalom 1A");
+  else if (a>=1 && a<2)
+	System.out.println("Trebuetsya predohranitel s nominalom 2A");
+  else if (a>=2 && a<3)
+	System.out.println("Trebuetsya predohranitel s nominalom 3A");
+  else if (a>=3 && a<4)
+	System.out.println("Trebuetsya predohranitel s nominalom 4A");
+  else if (a>=4 && a<5)
